@@ -1,8 +1,14 @@
 body {
     width: 90%;
 
-    background-color: #d9e1e9;
-    background-image: url(111.jpeg);
+
+
+    background: -webkit-linear-gradient(-150deg, rgb(32, 115, 189), rgb(82, 50, 50));
+    background: linear-gradient(-150deg, rgb(32, 115, 189), rgb(82, 50, 50));
+
+
+
+
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
