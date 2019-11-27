@@ -1,0 +1,120 @@
+body {
+    width: 90%;
+
+    background-color: #d9e1e9;
+    background-image: url(111.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+.myP{
+    width: 45%;
+    text-align: justify;
+    margin-left: 22%;
+    margin-right: 22%;
+    padding-left: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    font-family: Serif;
+    text-space: increase;
+
+
+}
+a:visited{
+    color: #3333ff;
+}
+
+.myP:visited {
+    color: #3333ff;
+}
+
+table, th, td {
+    border: 1px solid gray;
+    padding: 5px 5px 5px 5px;
+    margin: 2px 2px 5px 2px;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+
+
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+.tr{
+    background-color: lightgray;
+}
+.Good{
+    color:#79ff4d ;
+    text-transform: capitalize;
+}
+.Bad{
+    color: #ff8080;
+    text-transform: capitalize;
+}
+.quote{
+background-color:;
+    border-left: 4px dotted black;
+    padding-left: 30px;
+    margin-top: 80px
+}
+.conclusion{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: lightgray;
+    width: 50%;
+    margin: auto;
+    font-size: 160%;
+    border-left: 3px solid black;
+}
+img {
+    float: left;
+    width: 30%;
+    margin: 30px;
+
+}
+header {
+    background-color: yellow;
+}
